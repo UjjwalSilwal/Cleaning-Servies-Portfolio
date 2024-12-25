@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  display: none;
+}
+
 @layer base {
   li{
       @apply p-4

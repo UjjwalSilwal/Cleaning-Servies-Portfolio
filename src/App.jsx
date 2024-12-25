@@ -6,7 +6,7 @@ import Team from "./components/Team"
 
 export default function App() {
   return (
-    <div>
+    <div className="[@media(max-width:767px)]:scrollbar-hide">
       <NavbarTop/>
       <Navbar/>
       <Services/>
