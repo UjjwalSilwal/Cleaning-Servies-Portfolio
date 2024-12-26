@@ -2,25 +2,23 @@ import { Navbar } from "./components"
 import NavbarTop from "./components/NavbarTop"
 import Footer from "./components/Footer"
 import { Services } from "./components/Services"
-import Team from "./components/Team"
+// import Team from "./components/Team"
 import Landingpage from "./components/landingPage"
+import ContactUs from "./components/ContactUs"
+import AboutUs from "./components/AboutUs"
 
 export default function App() {
   return (
-    <div>
-      <div className=" relative">
-        <img src="/Decore.png" alt="" className='absolute right-0 top-0 ' />
-      </div>
+    <div className="App">
+         <img src="/Decore.png" alt="" className='absolute top-0 right-0 ' />
 
       <NavbarTop />
       <Navbar />
-      
-    <div className="flex justify-end z-50">
-      hello
-    </div>
       <Landingpage />
+      <AboutUs/>
       <Services />
-      <Team />
+      {/* <Team /> */}
+      <ContactUs/>
       <Footer />
     </div>
   )

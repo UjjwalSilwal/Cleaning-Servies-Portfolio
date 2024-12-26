@@ -2,10 +2,10 @@ import React from 'react'
 
 const Hero = () => {
     return (
-        <div>
-            <div className='justify-around'>
+        <div className='z-3'>
+            <div className=' flex'>
                 {/* <!-- Hero --> */}
-                <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="z-10 max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 ">
                     {/* <!-- Grid --> */}
                     <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
                         <div>
@@ -23,7 +23,7 @@ const Hero = () => {
                                 </a>
 
                             </div>
-                            <p className="mt-3 text-lg text-gray-800 dark:text-neutral-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae doloribus voluptatibus magni dolore expedita perspiciatis eum dolorem odio nisi minus veritatis similique, nam aspernatur exercitationem animi atque distinctio maxime suscipit sed voluptas quod dolorum sint cumque? Placeat fuga libero aspernatur maiores dicta officia, architecto quo impedit, aperiam error eveniet nam. Officia, quibusdam consequatur eius reprehenderit veritatis dolor libero minima necessitatibus fuga nobis commodi tempore quam repellat placeat facere assumenda aperiam, rerum, magnam ad quasi nostrum aspernatur. Obcaecati tenetur, provident maiores eum eveniet quibusdam, ducimus suscipit architecto excepturi, aliquam iure vitae laudantium consequatur possimus omnis ut explicabo. Ducimus eligendi dolorum explicabo!</p>
+                            <p className="mt-3 text-lg text-gray-800 dark:text-neutral-400">Our cleaning service provides reliable, high-quality, and efficient cleaning solutions tailored to meet your specific needs. Whether it's residential, commercial, or industrial spaces, we ensure a spotless environment through a dedicated team of professionals, eco-friendly cleaning products, and advanced techniques.</p>
                             {/* <!-- End Buttons --> */}
 
                             {/* <!-- Review --> */}
@@ -36,7 +36,9 @@ const Hero = () => {
                     {/* <!-- End Grid --> */}
                 </div>
 
-                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio ipsam pariatur perspiciatis in voluptates sequi sed, consequatur quae, magni ut fugit, ab a. Quisquam praesentium natus cumque reprehenderit modi explicabo placeat. Quibusdam officiis a qui eligendi suscipit. Magnam animi iusto explicabo veniam deserunt nostrum ut ad, adipisci labore nihil quaerat?</div>
+                <div className='z-1'>
+                    <img src="/Traveller" alt="" />
+                </div>
                 {/* <!-- End Hero --> */}
             </div>
         </div>

@@ -8,11 +8,11 @@ const NavbarTop = () => {
 <div className='flex items-center'>
     <ul className='hidden md:flex '>
 
-        <p className='font-serif'>Contact us at: 9808982141 </p>
+<div className='font-serif'>Email:ujjwalsilwal321@gmail.com</div>
     </ul>
 </div>
 
-<div className='font-serif'>Email:ujjwalsilwal321@gmail.com</div>
+        <p className='font-serif'>Contact us at: 9808982141 </p>
 
 </div>
 
