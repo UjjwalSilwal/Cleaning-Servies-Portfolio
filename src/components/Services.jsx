@@ -1,6 +1,12 @@
+import { useGSAP } from '@gsap/react'
 import React from 'react'
 
 export const Services = () => {
+    
+    useGSAP(()=>{
+
+    })
+
     return (
         <div className=''>
             {/* <!-- Card Blog --> */}
@@ -8,14 +14,14 @@ export const Services = () => {
                 {/* <!-- Title --> */}
                 <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14 ">
                     <h2 className="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">Our Services</h2>
-                    <p className="mt-1 text-gray-600 dark:text-neutral-400">See how game-changing companies are making the most of every engagement with Preline.</p>
+                    <p className="mt-1 text-gray-600 dark:text-neutral-400">We go beyond the surface to deliver unmatched cleaning solutions that leave your home or office spotless, fresh, and inviting—because you deserve a space that feels as good as it looks.</p>
                 </div>
                 {/* <!-- End Title --> */}
 
                 {/* <!-- Grid --> */}
                 <div className=" grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
                     {/* <!-- Card --> */}
-                    <a className="group hover:bg-gray-100 focus:outline-none focus:bg-gray-100 rounded-xl p-5 transition dark:hover:bg-white/10 dark:focus:bg-white/10" href="#">
+                    <a className="group hover:bg-gray-100 focus:outline-none focus:bg-gray-100 rounded-xl p-5 transition dark:hover:bg-white/10 dark:focus:bg-white/10" href="" ref={el=>{serviceCard =el}}>
                         <div className="aspect-w-16 aspect-h-10">
                             <img className="w-full h-80 object-cover rounded-xl" src="https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80" alt="Blog Image"/>
                         </div>
@@ -30,7 +36,7 @@ export const Services = () => {
                     {/* <!-- End Card --> */}
 
                     {/* <!-- Card --> */}
-                    <a className="group hover:bg-gray-100 focus:outline-none focus:bg-gray-100 rounded-xl p-5 transition dark:hover:bg-white/10 dark:focus:bg-white/10" href="#">
+                    <a className="group hover:bg-gray-100 focus:outline-none focus:bg-gray-100 rounded-xl p-5 transition dark:hover:bg-white/10 dark:focus:bg-white/10" href="">
                         <div className="aspect-w-16 aspect-h-10">
                             <img className="w-full h-80 object-cover rounded-xl" src="https://images.unsplash.com/photo-1669739432571-aee1f057c41f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80" alt="Blog Image"/>
                         </div>
@@ -44,7 +50,7 @@ export const Services = () => {
                     </a>
                     {/* <!-- End Card --> */}
 
-                    <a className="group hover:bg-gray-100 focus:outline-none focus:bg-gray-100 rounded-xl p-5 transition dark:hover:bg-white/10 dark:focus:bg-white/10" href="#">
+                    <a className="group hover:bg-gray-100 focus:outline-none focus:bg-gray-100 rounded-xl p-5 transition dark:hover:bg-white/10 dark:focus:bg-white/10" href="">
                         <div className="aspect-w-16 aspect-h-10">
                             <img className="w-full h-80 object-cover rounded-xl" src="https://images.unsplash.com/photo-1669739432571-aee1f057c41f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80" alt="Blog Image"/>
                         </div>
@@ -58,7 +64,7 @@ export const Services = () => {
                     </a>
                     {/* <!-- End Card --> */}
 
-                    <a className="group hover:bg-gray-100 focus:outline-none focus:bg-gray-100 rounded-xl p-5 transition dark:hover:bg-white/10 dark:focus:bg-white/10" href="#">
+                    <a className="group hover:bg-gray-100 focus:outline-none focus:bg-gray-100 rounded-xl p-5 transition dark:hover:bg-white/10 dark:focus:bg-white/10" href="">
                         <div className="aspect-w-16 aspect-h-10">
                             <img className="w-full h-80 object-cover rounded-xl" src="https://images.unsplash.com/photo-1669739432571-aee1f057c41f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80" alt="Blog Image"/>
                         </div>
@@ -72,7 +78,7 @@ export const Services = () => {
                     </a>
                     {/* <!-- End Card --> */}
                     
-                    <a className="group hover:bg-gray-100 focus:outline-none focus:bg-gray-100 rounded-xl p-5 transition dark:hover:bg-white/10 dark:focus:bg-white/10" href="#">
+                    <a className="group hover:bg-gray-100 focus:outline-none focus:bg-gray-100 rounded-xl p-5 transition dark:hover:bg-white/10 dark:focus:bg-white/10" href="">
                         <div className="aspect-w-16 aspect-h-10">
                             <img className="w-full h-80 object-cover rounded-xl" src="https://images.unsplash.com/photo-1669739432571-aee1f057c41f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80" alt="Blog Image"/>
                         </div>
